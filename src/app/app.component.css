@@ -13,3 +13,7 @@ header a {
 header a img{
     width: 40px;
 }
+
+main{
+    height: 100vh;
+}
