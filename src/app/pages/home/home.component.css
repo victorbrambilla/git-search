@@ -86,6 +86,7 @@
     margin: 3px 5px;
     padding: 2px 5px;
     background-color: #673ab7;
+    display: block;
 }
 .result-footer{
     margin: 10px 0;
@@ -108,4 +109,13 @@
 mat-paginator {
     background-color: #673ab7 !important;
     color: white;
+}
+
+@media(max-width:700px){
+    .container-result{
+        justify-content: center;
+    }
+    .result {
+        min-width: 300px;
+    }
 }
